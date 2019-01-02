@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {include file="common/head"}
+    <link rel="stylesheet" href="_STATIC_/css/contact.css">
+    <link rel="stylesheet" href="_STATIC_/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    {include file="common/header"}
+    <div class="content">
+        <div class="son_right">
+            <div id="keyMap"></div>
+        </div>
+        <div class="son_left">
+            <div class="box1">
+                <h1>联系我们</h1>
+                <h3>contact</h3>
+                <div class="box1_cont">
+                    <p>山东东讯网络科技有限公司</p>
+                    <p>邮箱：150063222@qq.com</p>
+                    <p>地址：山东省滕州市创硕数码广场三楼</p>
+                    <p>电话：0632-5603735</p>
+                </div>
+            </div>
+            <div class="box2">
+                <h1>有事请留言</h1>
+                <div class="box1_cont">
+                    <!--<form class="biaodan" data-wow-delay="0.4s" action="contact" method="post">-->
+                    <p>
+                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        <input type="text" placeholder="Name"  name="name">
+                    </p>
+                    <p>
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <input type="text" placeholder="Tel" name="tel">
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <input type="text" placeholder="E-mail" name="email">
+                    </p>
+                    <p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <input type="text" placeholder="Address" name="address">
+                    </p>
+                    <p>
+                        <i class="fa fa-sticky-note" aria-hidden="true"></i>
+                        <textarea placeholder="请在此输入留言内容，我们会尽快与您联系。（必填）" name="subject"></textarea>
+                    </p>
+                    <p class="button">
+                        <input type="submit" value="点击发送">
+                    </p>
+                    <!--</form>-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    {include file="common/bottom"}
+</body>
+<script src="_STATIC_/js/contact.js"></script>  
+<script src="http://webapi.amap.com/maps?v=1.4.0&key=1b2052b192ccb3beaa4da3e35e426312&callback=init"></script>
+</html>
